@@ -39,7 +39,12 @@ function App() {
           <button className="btn btn-success mt-4 w-100">Send</button>
         </a>
       </main>
-      <footer className="text-center">Made with ❤️ by Shubham Jangle</footer>
+      <footer className="text-center">
+        Made with ❤️ by{" "}
+        <a href="https://www.linkedin.com/in/imshubhamjangle/" target="_blank">
+          Shubham Jangle
+        </a>
+      </footer>
     </div>
   );
 }
