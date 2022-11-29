@@ -4,7 +4,13 @@ import Navbar from "./Navbar";
 
 function App() {
   const [prefix, setPrefix] = useState("91");
-  const [number, setNumber] = useState("9673735362");
+  const [number, setNumber] = useState("");
+
+  const handleNumberChange = (num) => {
+    num = num.replace(/[^0-9]/g, "").slice(-10);
+    console.log(num);
+    setNumber(num);
+  };
 
   return (
     <div className="App">
@@ -20,21 +26,20 @@ function App() {
               className="form-control"
               type="text"
               placeholder="1234567890"
-              onChange={(e) => setNumber(e.target.value)}
+              onChange={(e) => handleNumberChange(e.target.value)}
               value={number}
             ></input>
           </div>
         </div>
-        <button className="btn btn-success mt-4 w-100">
-          <a
-            href={`https://wa.me/${prefix}${number}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Send
-          </a>
-        </button>
+        <a
+          href={`https://wa.me/${prefix}${number}`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="btn btn-success mt-4 w-100">Send</button>
+        </a>
       </main>
+      <footer className="text-center">Made with ❤️ by Shubham Jangle</footer>
     </div>
   );
 }

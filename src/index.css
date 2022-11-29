@@ -11,11 +11,19 @@
   margin-left: 14px;
 }
 
-button > a {
+a {
   text-decoration: none !important;
   color: #fff;
 }
 
+.App {
+  height: 100vh;
+}
+
 main {
-  height: 70vh;
+  height: 80%;
+}
+
+footer {
+  font-size: 10px;
 }
