@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/whatsapp-direct-message/static/css/main.ae4cb6d0.css",
+    "main.js": "/whatsapp-direct-message/static/js/main.64e54c86.js",
+    "static/media/logo192.png": "/whatsapp-direct-message/static/media/logo192.47155b0c8b2d1b40f3ec.png",
+    "index.html": "/whatsapp-direct-message/index.html",
+    "main.ae4cb6d0.css.map": "/whatsapp-direct-message/static/css/main.ae4cb6d0.css.map",
+    "main.64e54c86.js.map": "/whatsapp-direct-message/static/js/main.64e54c86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae4cb6d0.css",
+    "static/js/main.64e54c86.js"
+  ]
+}
