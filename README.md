@@ -1,8 +1,16 @@
-This project is deployed @ bit.ly/wadirectmessage
+This project is deployed @ https://bit.ly/wadirectmessage
 
 Need to send whatsapp message to unknown numbers? No need to save those contacts. Use whatsapp direct message app.
 
-# Getting Started with Create React App
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# Usage Docs
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
