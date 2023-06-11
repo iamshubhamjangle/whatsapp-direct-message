@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Navbar />
       <main className="container mt-4 text-center d-flex flex-column justify-content-center">
-        <h2 className="">Send a message without adding to contacts</h2>
+        <h2 className="">Send a Whatsapp message without adding the number to your contacts</h2>
         <div className="row mt-4">
           <div className="col-md-3 my-1 my-md-0">
             <CountryCodeDropdown setPrefix={setPrefix} />
